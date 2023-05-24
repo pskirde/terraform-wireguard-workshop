@@ -9,20 +9,24 @@ In each terraform directory please create a dev.tfvars file and populate it with
 
 ## Contabo
 
->client_id="DE-XXXXX"
-client_secret="4XXXXXXXXXX"
-user="xxxx@xxx.com"
-pass="passwordthatissecure"
-region="EU"
+> client_id="DE-XXXXX"
+> client_secret="4XXXXXXXXXX"
+> user="xxxx@xxx.com"
+> pass="passwordthatissecure"
+> region="EU"
 
 ## Hetzner
 
 > hcloud_token="XXX"
-environment="dev"
+> environment="dev"
 
 ## AWS
 
-> TBD
+> access_key="Axxxxxxxx"
+> secret_key="0xxxxxxxxxxxxxxxxxxxx"
+> application_name="wireguard"
+> location="frankfurt"
+> environment="dev"
 
 ## Azure
 
